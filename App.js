@@ -4,9 +4,15 @@ import Botao from './src/componentes/Botao'
 import Display from './src/componentes/Display'
 
 export default class App extends Component {
+
+  state = {
+    displayValue: '0',
+  }
+
   render() {
     return(
       <View style={styles.container}>
+        <Display value={this.state.displayValue}/>
         <View style={styles.buttons}>
           <Botao label='AC'/>
           <Botao label='/'/>
