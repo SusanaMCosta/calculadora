@@ -1,12 +1,31 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native'
+import Botao from './src/componentes/Botao'
+import Display from './src/componentes/Display'
 
 export default class App extends Component {
   render() {
     return(
-      <View>
-        <Text>Welcome</Text>
-        <Text>Bem vindo</Text>
+      <View style={styles.container}>
+        <View style={styles.buttons}>
+          <Botao label='AC'/>
+          <Botao label='/'/>
+          <Botao label='7'/>
+          <Botao label='8'/>
+          <Botao label='9'/>
+          <Botao label='*'/>
+          <Botao label='4'/>
+          <Botao label='5'/>
+          <Botao label='6'/>
+          <Botao label='-'/>
+          <Botao label='1'/>
+          <Botao label='2'/>
+          <Botao label='3'/>
+          <Botao label='+'/>
+          <Botao label='0'/>
+          <Botao label='.'/>
+          <Botao label='='/>
+        </View>
       </View>
     );
   }
@@ -14,9 +33,12 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
-
+    flex: 1,
   },
-  
+  buttons:{
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+  }
 })
 
 
