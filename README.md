@@ -1,11 +1,11 @@
 # Projeto: Calculadora
 > Dupla: Isaac Ribeiro, Susana Moreira
 
-### Tela
+## Tela
 
 ![](/tela.png)
 
-### Informações
+## Informações
 
 **A calculadora apresenta as 4 operações básicas, além de uma extra:**
 
@@ -15,7 +15,7 @@
 * Divisão ( / )
 * Limpar a memória da calculadora ( AC )
 
-### Execução
+## Execução
 
 **Para a execução do projeto, basta seguir os seguintes passos:**
 
