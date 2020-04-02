@@ -1,9 +1,9 @@
 # Projeto: Calculadora
-> Dupla: Isaac Ribeiro, Susana Moreira
+> Equipe: Isaac Ribeiro, Susana Moreira e Cleiton Monteiro
 
 ## Tela
 
-![](/tela.png)
+![Calculadora.gif](https://media.giphy.com/media/eNkgrXVRXBeI58xqsj/giphy.gif)
 
 ## Informações
 
@@ -22,5 +22,12 @@
 No terminal do seu computador digite:
 
 ```sh
-???
+yarn install
+yarn android
+```
+ou
+
+```sh
+npm install
+npm run android
 ```
