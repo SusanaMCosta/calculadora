@@ -1,5 +1,5 @@
 # Projeto: Calculadora
-> Equipe: Isaac Ribeiro, Susana Moreira e Cleiton Monteiro
+> Equipe: Cleiton Monteiro, Isaac Ribeiro, Maria Elane e Susana Moreira.
 
 ## Tela
 
