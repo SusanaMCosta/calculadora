@@ -1,4 +1,4 @@
-# Projeto: Calculadora
+# Calculadora em React Native.
 > Equipe: Cleiton Monteiro, Isaac Ribeiro, Maria Elane e Susana Moreira.
 
 ## Tela
@@ -14,6 +14,10 @@
 * Multiplicação ( * )
 * Divisão ( / )
 * Limpar a memória da calculadora ( AC )
+
+## Ferramentas
+
+![ferramentas.png](https://github.com/SusanaMCosta/calculadora/blob/master/ferramentas.png)
 
 ## Execução
 
